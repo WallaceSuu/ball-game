@@ -133,7 +133,7 @@ class EvilCircle extends Shape {
     }
 
     checkBounds() {
-        if ((this.x+this.y)>=width) {
+        if ((this.x+this.size)>=width) {
             this.x -= this.size;
         }
 
