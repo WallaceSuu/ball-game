@@ -174,7 +174,7 @@ const player = new EvilCircle(0, 0);
 // Storing balls
 const balls = [];
 
-while (balls.length<) 100{
+while (balls.length<100){
     const size = random(10, 20);
     const ball = new Ball(
         random (0+size, width-size),
