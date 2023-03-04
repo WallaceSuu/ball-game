@@ -136,7 +136,7 @@ class EvilCircle extends Shape {
         if ((this.x+this.size)>=width) {
             this.x -= this.size;
         }
-//??????????????????//
+
         if ((this.x-this.size)<=0) {
             this.x += this.size;
         }
@@ -174,13 +174,13 @@ const player = new EvilCircle(0, 0);
 // Storing balls
 const balls = [];
 
-while (balls.length<25) {
+while (balls.length<) 100{
     const size = random(10, 20);
     const ball = new Ball(
         random (0+size, width-size),
         random(0+size, height - size),
-        random(-7, 7),
-        random(-7, 7),
+        random(-12, 12),
+        random(-12, 12),
         randomRGB(),
         size
     );
